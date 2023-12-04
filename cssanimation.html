@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style media="screen">
+    body{
+        overflow: hidden;
+         background-image: url("https://t4.ftcdn.net/jpg/01/80/32/65/360_F_180326562_QynDo9u0p6CEStVsDfqGxbN33SM3M4qc.jpg"); 
+        background-size: cover;
+    }
+    .rocket{
+        position: absolute;
+        bottom: -600px;
+        left:35%;
+        animation: fly 15s.5s ease-in-out;
+    } 
+     @keyframes fly{
+        0%{bottom:-600px;}
+        100%{bottom: 100%}
+    } 
+    img{
+        mix-blend-mode: multiply;
+        height: 300px;
+        width: 300px;
+    }
+    p{
+        position: relative;
+        bottom: -600px;
+        border: 2px solid black;
+        border-radius: 35px;
+        background-color: rgb(81, 0, 255);
+        color: blanchedalmond;
+        animation: sun 10s.3s ease-in-out;
+        height: 50px;
+        width: 100px;
+        text-align: center;
+        padding: 20px;
+        font-weight: bold;
+    }
+    @keyframes sun{
+        0%{left: -500px;}
+        100%{left: 100%;
+        }
+        
+    }
+
+       
+
+    </style>
+</head>
+<body>
+     <p> ADITHYAN</p>
+    <img src="https://media.istockphoto.com/id/1128766183/vector/cartoon-rocket-space-ship-simple-spaceship-icon-stock-vector.jpg?s=170x170&k=20&c=IjXrwanvWycEarla99cf2ZJb3fIf8FpONwwTZWywSZ0="alt="rocket"class="rocket">
+</body>
+</html>
