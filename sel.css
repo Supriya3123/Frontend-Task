@@ -1,0 +1,35 @@
+
+        table, th, td {
+            border: 3px solid rgb(93, 0, 255);
+            border-collapse: collapse;
+        }
+        h1{ text-align: center;}
+        .p1{
+            color: blue;
+        }
+        .p{
+            color: deeppink;
+            background-color: chartreuse;
+          }
+          .p1{
+            background-color: rgb(61, 165, 42);
+              color:rgb(38, 0, 128);
+          }
+          #p2{
+            background-color: coral;
+            color: black;
+          }
+          .p3{
+            background-color: green ;
+            color: burlywood;
+          }
+          .p4{
+            background-color: darkviolet;
+            color: chartreuse;
+          }
+          .p5{
+            background-color: blanchedalmond;
+            color: crimson;
+          }
+           
+        
